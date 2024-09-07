@@ -3,7 +3,13 @@ const cors = require('cors')
 const express = require('express')
 const app = express()
 
-app.use(cors())
+app.use(cors(
+  {
+    origin: ["https://deploy-mern-1whq.vercel.app"],
+    methods: ["POST", "GET"],
+    credentials: true
+  }
+))
 
 app.get('/', function (req, res) {
   res.send('Hello World')
