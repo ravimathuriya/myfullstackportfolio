@@ -1,0 +1,430 @@
+/* for navbar component */
+.nav .nav-link{
+    font-size: 15px;
+    font-family: Raleway, Helvetica, sans-serif; 
+    font-weight: 500;
+}
+
+
+/* for body component */
+
+#body{
+    position: relative;
+    top: 50px;
+    min-width: 300px;  
+    font-family: Raleway, Helvetica, sans-serif; 
+    
+       
+}
+
+#personal-info img {
+    margin: 10px 10px 20px;
+    height: 160px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#personal-info {
+    margin: 14px;
+}
+
+#personal-info a {
+    color: rgb(114, 114, 114);
+}
+
+#personal-info a:hover {
+    color: rgb(84, 84, 236);
+}
+
+#personal-info .title {
+
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+#about-para {
+    margin: 0px 10px;
+}
+
+#about-para p {
+    padding: 8px 0px;
+    font-size: 13px;
+}
+
+#social-media {
+    padding: 0;
+}
+
+#social-media ul {
+    display: flex;
+    
+
+}
+
+#social-media ul li {
+    list-style: none;
+    padding: 5px;
+
+}
+
+#social-media ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#social-media ul li a .naukri {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: -20px;
+    color: #000000;
+}
+
+#social-media ul li a .naukri:hover {
+    color: rgb(84, 84, 236);
+}
+
+#social-media ul li a svg:hover {
+    color: rgb(84, 84, 236);
+}
+
+@media (min-width: 450px) and (max-width: 1110px) {
+    
+    #reverse{
+        flex-direction: column-reverse;
+    }
+
+    #body{
+        min-width: 90%;   
+           
+    }
+
+    #contactwidth{
+        min-width: 90%;  
+           
+    }
+ }
+
+ @media (max-width: 449px) {
+    
+    #reverse{
+        flex-direction: column-reverse;
+    }
+
+    #body{
+        min-width: none;
+        width: 90%;
+        right: 20px;   
+    }
+
+    #contact{
+        min-width: none;
+        width: 90%;
+        right: 20px;   
+    }
+
+    #resume{
+        min-width: none;
+        width: 90%;
+        right: 20px;   
+    }
+
+    #resume .link-container{
+        flex-direction: column;
+    }
+
+    #about{
+        min-width: none;
+        width: 90%;
+        right: 20px;   
+    }
+
+
+    
+ }
+
+/* for contact component */
+
+#contact{
+    box-sizing: border-box;
+    position: relative;
+    top: 50px;
+    width: 90%;
+    min-width: 300px;
+    background-color: #f9f9f9;    
+    padding: 20px 30px;
+    font-family: Raleway, Helvetica, sans-serif;
+    height: fit-content;
+     
+}
+
+#contact hr{
+    margin-top: 20px;
+    position: relative;
+    left: 0;
+}
+
+#contact h2{
+    text-transform: uppercase;
+    padding: 30px 0;
+    font-size: 25px;
+    letter-spacing: 0.5cap;
+    font-weight: 800;
+}
+
+#contact p{
+    padding: 30px 0;
+}
+
+#contact a{
+    color: black;
+}
+
+#contact a:hover {
+    color: rgb(84, 84, 236);
+}
+
+#contact form label{
+    padding: 30px 30px 10px 0px;
+    font-size: 14px;
+    letter-spacing: 0.3cap;
+    font-weight: 700;
+    text-align: start;
+    margin-top: 0;
+}
+
+
+/* for resume component */
+
+#resume{
+    box-sizing: border-box;
+    position: relative;
+    top: 50px;
+    width: 90%;
+    min-width: 300px;
+    background-color: #f9f9f9;    
+    padding: 20px 30px;
+    font-family: Raleway, Helvetica, sans-serif;
+    height: fit-content;
+     
+}
+
+#resume .link-container {
+    display: flex;
+}
+
+#resume hr{
+    margin-top: 30px;
+    position: relative;
+    left: 0;
+}
+
+#resume h2{
+    text-transform: uppercase;
+    padding: 30px 0;
+    font-size: 25px;
+    letter-spacing: 0.5cap;
+    font-weight: 800;
+}
+
+#resume p{
+    padding: 30px 0;
+}
+
+#resume a{
+    color: black;
+}
+
+#resume a:hover {
+    color: rgb(84, 84, 236);
+}
+
+#resume .link-container h2{
+    
+    padding: 25px ;
+    font-size: 10px;
+    letter-spacing: 0.5cap;
+    
+}
+
+#resume .link-container a{
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#resume .link-container a:hover{
+    color: rgb(84, 84, 236);
+}
+
+#education h3{
+    text-transform: uppercase;
+    padding: 30px 0;
+    font-size: 18px;
+    letter-spacing: 0.2cap;
+    font-weight: 700;
+    text-align: center;
+}
+
+#education p{
+    padding: 0;
+}
+
+#experience h3{
+    text-transform: uppercase;
+    padding: 30px 0;
+    font-size: 18px;
+    letter-spacing: 0.2cap;
+    font-weight: 700;
+    text-align: center;
+}
+
+#experience h4{
+    font-size: 13px;
+    color: #3c3b3b;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: .18em;
+    line-height: 1.65;
+    margin: 0 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+
+
+#experience .company-section p, li{
+    font-size: 12px; 
+    padding: 0;  
+}
+
+#skills h3{
+    text-transform: uppercase;
+    padding: 30px 0;
+    font-size: 18px;
+    letter-spacing: 0.2cap;
+    font-weight: 700;
+    text-align: center;
+}
+
+#courses h3{
+    text-transform: uppercase;
+    padding: 30px 0;
+    font-size: 18px;
+    letter-spacing: 0.2cap;
+    font-weight: 700;
+    text-align: center;
+}
+
+#courses h4{
+    font-size: 13px;
+    color: #3c3b3b;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: .18em;
+    line-height: 1.65;
+    margin: 0 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+#courses p{
+    font-size: 12px; 
+    padding: 0;  
+}
+
+
+/* for about component */
+
+#about{
+    box-sizing: border-box;
+    position: relative;
+    top: 50px;
+    width: 90%;
+    min-width: 300px;
+    background-color: #f9f9f9;    
+    padding: 20px 30px;
+    font-family: Raleway, Helvetica, sans-serif;
+    height: fit-content;
+     
+}
+
+
+#about hr{
+    margin-top: 20px;
+    position: relative;
+    left: 0;
+}
+
+#about h2{
+    text-transform: uppercase;
+    padding: 30px 0;
+    font-size: 25px;
+    letter-spacing: 0.5cap;
+    font-weight: 800;
+}
+
+#about h3{
+    text-transform: uppercase;
+    padding: 30px 30px 10px 0px;
+    font-size: 14px;
+    letter-spacing: 0.3cap;
+    font-weight: 700;
+    text-align: start;
+    margin-top: 0;
+}
+
+#about p{
+    margin-top: 0px;
+    font-size: 13.5px;
+}
+
+#about ul{
+    margin: 0;
+    padding: 0px 30px 20px 0px;
+    padding-left: 15px;
+    
+    
+    
+}
+
+#about li{
+    
+    font-size: 13.5px;
+}
+
+/* for project component */
+
+#projectcard{
+    
+    font-family: Raleway, Helvetica, sans-serif;
+}
+
+#projectcard .card-title{
+    
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 0.2cap;
+    font-weight: 700;
+    text-align: start;
+}
+
+#projectcard .image {
+    overflow: hidden;
+    
+}
+
+#projectcard .image img{
+    transition: 0.2s all ease-in-out;
+}
+
+#projectcard .image:hover img{
+    transform: scale(1.1);
+}
+
+
+

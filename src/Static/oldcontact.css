@@ -1,0 +1,92 @@
+
+#contact{
+   
+    background-color: #f9f9f9;
+    margin: 40px;
+    padding: 20px 30px;
+    height: 400px;
+    width: 1600px;
+    border: 1px solid rgb(215, 215, 215);
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    justify-content: start;
+    flex-direction: column;
+    font-family: Raleway, Helvetica, sans-serif;
+    
+}
+
+#contact h2{
+    text-transform: uppercase;
+    padding: 30px 0;
+    font-size: 25px;
+    letter-spacing: 0.5cap;
+    font-weight: 800;
+}
+
+#contact p{
+    padding: 30px 0;
+}
+
+#contact a{
+    color: black;
+}
+
+#contact a:hover {
+    color: rgb(84, 84, 236);
+}
+
+#mymedia ul {
+    display: flex;
+    position: absolute;
+    left: 0;
+
+}
+
+#mymedia ul li {
+    list-style: none;
+    padding: 5px;
+    
+
+}
+
+#mymedia ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#mymedia ul li a .naukri {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: -16px;
+    color: #000000;
+}
+
+#mymedia ul li a .naukri:hover {
+    color: rgb(84, 84, 236);
+}
+
+#mymedia ul li a svg:hover {
+    color: rgb(84, 84, 236);
+}
+
+@media (min-width: 300px) and (max-width: 1300px) { 
+    
+    #contact{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-right:20px;
+        left: 0px;
+        flex: 100%;
+    }
+
+   
+    
+}
+
+
+
+

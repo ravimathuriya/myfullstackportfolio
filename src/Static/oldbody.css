@@ -1,0 +1,126 @@
+.container {
+    box-sizing: border-box;
+    padding: 20px 30px;
+    display: flex;
+    width: 500px;
+    position: relative;
+    left: 0;
+    top: 40px;
+    justify-content: start;
+    align-items: start;
+    height: 650px;
+    flex-direction: column;
+    font-family: Raleway, Helvetica, sans-serif;
+    flex: 50%;
+}
+
+#personal-info img {
+    margin: 10px 10px 20px;
+    height: 160px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+#personal-info {
+    margin: 14px;
+}
+
+#personal-info a {
+    color: rgb(114, 114, 114);
+}
+
+#personal-info a:hover {
+    color: rgb(84, 84, 236);
+}
+
+#personal-info .title {
+
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+.container .line {
+    border-top: 1px solid #a0a0a04d;
+    margin: 25px 10px 0px;
+
+}
+
+#about-para {
+    margin: 0px 10px;
+}
+
+#about-para p {
+    padding: 8px 0px;
+    font-size: 14px;
+}
+
+.btn {
+    font-size: smaller;
+    margin: 0px 10px;
+}
+
+
+#social-media ul {
+    display: flex;
+    position: absolute;
+    left: 0;
+
+
+}
+
+#social-media ul li {
+    list-style: none;
+    padding: 5px;
+
+
+}
+
+#social-media ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#social-media ul li a .naukri {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: -16px;
+    color: #000000;
+}
+
+#social-media ul li a .naukri:hover {
+    color: rgb(84, 84, 236);
+}
+
+#social-media ul li a svg:hover {
+    color: rgb(84, 84, 236);
+}
+
+@media (min-width: 300px) and (max-width: 1300px) { 
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 40px;
+        position: absolute;
+        left: 0px;
+        flex: 100%;
+        padding: 20px 10px;
+        margin-right:20px;
+    }
+    
+    #social-media{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 550px;
+    left: 0;
+   
+    
+    }
+}
+
+

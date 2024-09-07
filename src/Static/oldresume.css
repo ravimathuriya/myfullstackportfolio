@@ -1,0 +1,81 @@
+
+
+#resume{
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    margin: 40px;
+    padding: 20px 30px;
+    display: flex;
+    width: 850px;
+    min-width: fit-content;
+    height: 380px;
+    border: 1px solid rgb(215, 215, 215);
+    position: absolute;
+    height: auto;
+    top: 70px;
+    right: 0px;
+    justify-content: start;
+    flex-direction: column;
+    font-family: Raleway, Helvetica, sans-serif;
+    flex: 50%;
+
+}
+
+#resume h2{
+    text-transform: uppercase;
+    padding: 30px 0;
+    font-size: 25px;
+    letter-spacing: 0.5cap;
+    font-weight: 800;
+}
+
+#resume .link-container {
+    display: flex;
+}
+
+#resume .link-container h2{
+    
+    padding: 25px ;
+    font-size: 10px;
+    letter-spacing: 0.5cap;
+    
+}
+
+#resume .link-container a{
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#resume .link-container a:hover{
+    color: rgb(84, 84, 236);
+}
+
+#education h3{
+    text-transform: uppercase;
+    padding: 30px 0;
+    font-size: 18px;
+    letter-spacing: 0.2cap;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+@media (min-width: 300px) and (max-width: 1300px) { 
+    
+    #resume{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 95%;
+        margin-right:20px;
+        left: 0px;
+        flex: 100%;
+    }
+
+   
+    
+}
