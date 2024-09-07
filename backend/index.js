@@ -4,7 +4,11 @@ const express = require('express')
 const app = express()
 
 app.use(cors(
-    {origin: "*",}
+    {
+        origin: ["https://deploy-mern-1whq.vercel.app"],
+        methods: ["POST", "GET"],
+        credentials:true         
+              }
 ))
 
 app.get('/', function (req, res) {
