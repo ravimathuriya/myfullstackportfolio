@@ -5,7 +5,7 @@ const app = express()
 
 app.use(cors(
     {
-        origin: [""],
+        origin: ["https://myfullstackportfolio-front.vercel.app"],
         methods: ["POST", "GET"],
         credentials:true         
               }
