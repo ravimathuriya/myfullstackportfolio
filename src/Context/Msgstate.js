@@ -8,7 +8,7 @@ const Msgstate = (props) => {
 
     const addMsg = async(name, email, message) => {
 
-        const response = await fetch("http://localhost:5000/message", {
+        const response = await fetch("myfullstackportfolio.vercel.app/message", {
             method: "POST",             
 		    headers: {
               "Content-Type": "application/json",
