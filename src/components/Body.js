@@ -22,9 +22,7 @@ const Body = () => {
         <div id="about-para">
           <h6>ABOUT</h6>
           <p>
-            Hi, I'm Ravi. I am an aspiring Frontend Developer. Currently, I am
-            working as Project Delivery Executive at Creative Lipi Webtech PVT.
-            LTD. I have 5+ years exprience in various sector.
+          Hi, My name is Ravi Mathuriya, and I am from Aligarh, Uttar Pradesh. With over 2 years of hands-on experience in the MERN stack (MongoDB, Express.js, React, Node.js), I’ve found my true passion in creating dynamic, scalable, and user-focused web applications.
           </p>
         </div>
 
@@ -152,3 +150,5 @@ const Body = () => {
 }
 
 export default Body
+
+
