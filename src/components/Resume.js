@@ -63,32 +63,31 @@ const Resume = () => {
               <div id="experience">
                 <h3>Experience</h3>
                 <div className="company-section">
-                  <h4>Technology Kart  - Front end Developer</h4>
-                  <span style={{ fontSize: "13px" }}>Jan'2023 - Till Now</span>
-                  <p>I have the privilege of serving as a Front-end Developer for 1.5+ years. As a Front End Developer, I have prior experience creating and maintaining interactive web applications, utilizing modern web technologies such as React.js, JavaScript, and HTML/CSS, as well as an understanding of optimization techniques and user experience principles. 
-                  I have resulted in an improved website performance, decreased page load speeds, and an overall positive impact on the company's performance. 
+                  <h4>Ecom Express Ltd. - Associate (Web Developer)</h4>
+                  <span style={{ fontSize: "13px" }}>May'2023 - Till Now</span>
+                  <p>As an Associate Web Developer at Ecom Express Ltd., I leverage my expertise in the MERN stack (MongoDB, Express.js, React, Node.js) to build and maintain robust, scalable, and user-centric web applications. I am responsible for developing dynamic, real-time features and improving the performance of our web-based platforms. My role includes designing both front-end and back-end systems, integrating APIs, and ensuring a seamless user experience. I collaborate with cross-functional teams to deliver high-quality web applications while continuously optimizing performance and ensuring security standards are met. 
                   </p>
                   <ul>
-                    <li>I have experienced with 1.5+ years in designing, developing and maintaining front-end web applications.</li>
-                    <li>Utilize modern web technologies such as React.js and best practices for user experience and accessibility.</li>
-                    <li>Transform app designs into front-end code with React.js, HTML, CSS, and JavaScript.</li>
-                    <li>Work with back-end developers to integrate UI components with APIs and databases.</li>
-                    <li>Debug errors, troubleshoot issues, and perform routine performance optimizations.</li>
-                    <li>Basic understanding of server-side CSS pre-processing platforms, such as SASS.</li>
-                    <li>Good understanding of asynchronous request handling, partial page updates.</li>
+                    <li>Designed and developed full-stack web applications with React, Node, and MongoDB.</li>
+                    <li>Integrated REST APIs with front-end applications for real-time data handling.</li>
+                    <li>Enhanced application performance with optimized server-side code and database queries.</li>
+                    <li>Supported full-stack development projects from concept through delivery.</li>
+                    <li>Built responsive interfaces using React.js, and Bootstrap.</li>
+                    <li>Developed backend APIs and database schemas using Node.js and MongoDB.</li>
+                    <li>Assisted in bug fixing, testing, and UI/UX improvements across web platforms.</li>
                   </ul>
                 </div>
 
                 <div className="company-section">
-                  <h4>Delhivery Limited - Associate</h4>
-                  <span style={{ fontSize: "13px" }}>Jan'2022 - July'2022</span>
-                  <p>I have had served as a Associate for 7 months, where I played a pivotal role in ensuring the successful delivery of warehouse projects. My experience encompasses managing projects from initiation to completion, overseeing all aspects of project planning, execution, and delivery.</p>
+                  <h4>Delhivery Limited - Associate (Procurement) </h4>
+                  <span style={{ fontSize: "13px" }}>Dec'2021 - Mar'2023</span>
+                  <p>I have had served as a Associate for 1.5 years, where I played a pivotal role in ensuring the successful delivery of warehouse projects. My experience encompasses managing projects from initiation to completion, overseeing all aspects of project planning, execution, and delivery.</p>
                   <ul>
+                    <li>Created and managed Purchase Orders (POs) for inventory replenishment, packaging materials, and operational supplies, ensuring timely stock availability.</li>
+                    <li>Processed Goods Receipt Notes (GRNs) upon delivery of items, verifying quantity, condition, and vendor accuracy in warehouse management systems (WMS/ERP).</li>
+                    <li>Performed invoice quantity checks by matching received goods against PO and GRN to ensure consistency before forwarding to finance for payment processing.</li>
+                    <li>Coordinated with suppliers and internal teams to resolve discrepancies related to delivery, documentation, or invoicing.</li>
                     <li>Responsible for project coordination and taking care of all project aspects like data validation, scheduling, quality checks and regular status updation with the client and internal teams.</li>
-                    <li>Supervise and oversee all aspects of procurement and warehouse activities.</li>
-                    <li>Monitoring the effectiveness of the application and implementation of Company policies and procedures applicable to the Procurement & Warehouse Department.</li>
-                    <li>Guide the selection, development, and management of suppliers to meet commodity cost and performance goals, with emphasis placed on ability to identify cost targets for relevant technology and product roadmaps.</li>
-                    <li>Assisting and developing changes needed to improve the effectiveness of the Company Management System Procurement and warehouse area.</li>
                   </ul>
                 </div>
 
@@ -113,19 +112,19 @@ const Resume = () => {
               <div id="skills">
                 <h3>Skills</h3>
                 <div class="progress" style={{height:"30px" }}>
-                  <div class="progress-bar bg-danger" role="progressbar" style={{ width: "75%", height:"30px", textAlign:"start" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span style={{paddingLeft:"10px", fontWeight:"600"}}>ReactJs</span></div>
+                  <div class="progress-bar bg-danger" role="progressbar" style={{ width: "85%", height:"30px", textAlign:"start" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span style={{paddingLeft:"10px", fontWeight:"600"}}>ReactJs</span></div>
                 </div>
 
                 <div class="progress my-3" style={{height:"30px" }}>
-                  <div class="progress-bar bg-primary" role="progressbar" style={{ width: "70%", height:"30px", textAlign:"start" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span style={{paddingLeft:"10px", fontWeight:"600"}}>jQuery</span></div>
+                  <div class="progress-bar bg-primary" role="progressbar" style={{ width: "90%", height:"30px", textAlign:"start" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span style={{paddingLeft:"10px", fontWeight:"600"}}>NodeJs</span></div>
                 </div>
 
                 <div class="progress my-3" style={{height:"30px" }}>
-                  <div class="progress-bar bg-success" role="progressbar" style={{ width: "90%", height:"30px", textAlign:"start" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span style={{paddingLeft:"10px", fontWeight:"600"}}>Git</span></div>
+                  <div class="progress-bar bg-success" role="progressbar" style={{ width: "95%", height:"30px", textAlign:"start" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span style={{paddingLeft:"10px", fontWeight:"600"}}>Git</span></div>
                 </div>
 
                 <div class="progress my-3" style={{height:"30px" }}>
-                  <div class="progress-bar bg-warning" role="progressbar" style={{ width: "80%", height:"30px", textAlign:"start" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span style={{paddingLeft:"10px", fontWeight:"600"}}>JavaScript</span></div>
+                  <div class="progress-bar bg-warning" role="progressbar" style={{ width: "90%", height:"30px", textAlign:"start" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span style={{paddingLeft:"10px", fontWeight:"600"}}>JavaScript</span></div>
                 </div>
 
                 <div class="progress my-3" style={{height:"30px" }}>
@@ -133,31 +132,40 @@ const Resume = () => {
                 </div>
 
                 <div class="progress" style={{height:"30px" }}>
-                  <div class="progress-bar bg-danger" role="progressbar" style={{ width: "80%", height:"30px", textAlign:"start" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span style={{paddingLeft:"10px", fontWeight:"600"}}>Microsoft Excel</span></div>
+                  <div class="progress-bar bg-danger" role="progressbar" style={{ width: "80%", height:"30px", textAlign:"start" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span style={{paddingLeft:"10px", fontWeight:"600"}}> MongoDB</span></div>
                 </div>
 
                 <div class="progress my-3" style={{height:"30px" }}>
-                  <div class="progress-bar bg-primary" role="progressbar" style={{ width: "70%", height:"30px", textAlign:"start" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span style={{paddingLeft:"10px", fontWeight:"600"}}>AutoCAD</span></div>
+                  <div class="progress-bar bg-primary" role="progressbar" style={{ width: "85%", height:"30px", textAlign:"start" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span style={{paddingLeft:"10px", fontWeight:"600"}}>Express.js</span></div>
                 </div>
+
+                <div class="progress my-3" style={{height:"30px" }}>
+                  <div class="progress-bar bg-success" role="progressbar" style={{ width: "80%", height:"30px", textAlign:"start" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span style={{paddingLeft:"10px", fontWeight:"600"}}>  Mongoose</span></div>
+                </div>
+
+                <div class="progress my-3" style={{height:"30px" }}>
+                  <div class="progress-bar bg-warning" role="progressbar" style={{ width: "90%", height:"30px", textAlign:"start" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span style={{paddingLeft:"10px", fontWeight:"600"}}>  RESTful APIs</span></div>
+                </div>
+
               </div>
 
               <hr />
               <div id="courses">
                 <h3>Courses</h3>
                 <div className="course-section">
-                  <h4>Certification in complete web design (HTML, CSS, Javascript, jQuery, React, Git)</h4>
+                  <h4>Certification in complete web design (HTML, CSS, Javascript, React, Git, NodeJs, ExpressJs, MongoDB)</h4>
                   <span style={{ fontSize: "13px" }}>Certified from Udemy</span>
                   <ul className='my-2'>
                     <li>
-                    Complete HTML5 & CSS3 with 2 projects
+                    Proficient in HTML (structure of web pages) and CSS (styling and layout design).
                     </li>
-                    <li>jQuery basics including learning material & 1 project</li>
-                    <li>TYPESCRIPT Basics</li>
-                    <li>Complete VUE JS 3 with 5 projects including Vue Router</li>
-                    <li>GIT branching system & workflows for software releases</li>
-                    <li>Reponsive Design with CSS Media Queries</li>
-                    <li>Complete JAVASCRIPT including learning material, 5 lists of exercises & 2 projects</li>
-                    <li>Use Ajax & JSON to work with external APIs</li>
+                    <li>Knowledge of JavaScript for interactive and dynamic web content.</li>
+                    <li>Expertise in React for building responsive and efficient user interfaces.</li>
+                    <li>Familiar with Responsive Design techniques for mobile-first websites using CSS frameworks like Bootstrap.</li>
+                    <li>Experience building server-side applications and handling requests efficiently.</li>
+                    <li>Knowledge in setting up web servers, routing, and middleware for RESTful API development.</li>
+                    <li>Proficient in using MongoDB as a NoSQL database for data storage, along with schema design.</li>
+                    <li>Building and integrating RESTful APIs to communicate between the front-end and back-end.</li>
                   </ul>
                 </div>
 
@@ -183,3 +191,5 @@ const Resume = () => {
 }
 
 export default Resume
+
+
